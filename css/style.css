@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+     box-shadow: 0 10px 10px -5 aqua;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;    
+}
+ul{
+    list-style-type: none;
+    box-shadow: 10px 10px 10px -5px orange; text-align: right;
+}
+ul li{
+    
+    font-family: sans-serif;
+    background-color: ;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px 5px;
+    transition: 0.7s;
+    font-style: italic;
+    position: relative;
+   
+   
+}
+ul li:hover{
+    background-color: orange;
+}
+ul li ul{
+    position: absolute;
+    display: none;
+    top: 100%;
+    right: 0;
+}
+ul li:hover ul{
+    display: block;
+    box-shadow: 5px 5px 10px -5px black;
+}
